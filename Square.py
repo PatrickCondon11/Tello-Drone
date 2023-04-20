@@ -59,12 +59,11 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+        sendmsg('forward 100')
 
         sendmsg('land')
 
-        print('\nGreat Flight!!!')
+        print('\nGreat Flight!!! for D8DDCF')
 
     else:
         print('\nMake sure you check WIFI, surroundings, co-pilot is ready, re-run program\n')
