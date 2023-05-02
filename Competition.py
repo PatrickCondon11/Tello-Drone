@@ -60,7 +60,7 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff', 8)
         sendmsg('forward 220', 8)
-        sendmsg('go 220 0 80 80', 10)
+        sendmsg('go 220 10 80 80', 10)
         sendmsg('curve 145 145 0 0 290 0 60', 10)
         sendmsg('ccw 360', 8)
         sendmsg('ccw 180', 8)
